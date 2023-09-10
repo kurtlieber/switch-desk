@@ -33,6 +33,7 @@ so use caution and common sense.
           # (remember to delete this if you remove switch-desk later)
 
  USAGE: $CONFIG/switch-desk/switch.sh [-d <direction>] [-n <number>]
+ 
             -d, --direction  Specify the direction (left or right)
             -n, --number     Specify a number (integer)
 
