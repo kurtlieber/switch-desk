@@ -30,7 +30,7 @@ so use caution and common sense.
      easiest way is probably:
 
           sudo ln -s $HOME/.config/switch-desk/switch.sh /usr/local/bin
-          (remember to delete this if you remove switch-desk later)
+          # (remember to delete this if you remove switch-desk later)
 
  USAGE: $CONFIG/switch-desk/switch.sh [-d <direction>] [-n <number>]
             -d, --direction  Specify the direction (left or right)
