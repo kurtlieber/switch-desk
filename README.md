@@ -2,7 +2,7 @@ This script allows you to maintain separate icons and backgrounds per desktop
 in Linux Mint 21.2 on either Cinnamon, XFCE or MATE.  
 
 It is likely that it will work on most other gnome-based environments with
-minimal modification.  (see the platform specific section below)
+minimal modification.  (see the platform specific section of the script)
 
 This script will keep a copy of your original Desktop in $CONFIG/switch-desk/Desktop.bak
 If you try the script and hate it, just run:
@@ -16,7 +16,8 @@ delete any customizations made to your desktop after you started using the scrip
 so use caution and common sense.
 
  INSTALLATION: 
-   * Download the switch-desk directory
+   * Clone or otherwise download the switch-desk directory
+      - Note: you need the entire directory - not just the script.
    * mv /path/to/switch-desk $HOME/.config/  (recommended location - you can change this)
    * set $CONFIG and $DESKTOP in the config section below
    * Define custom shortcuts in Mint's Keyboard app.  You likely want:
@@ -25,13 +26,13 @@ so use caution and common sense.
       - One that moves one workspace right and points to /path/to/switch.sh -d right
       - One that moves one workspace left.  You can figure the rest out, right?
    * (OPTIONAL) make $CONFIG/switch.sh somehow available in your $PATH.  This is 
-     not strictly necessary unless you want to easily call the script directly
+     not strictly necessary unless you want to easily call the script from the CLI.
      easiest way is probably:
 
           sudo ln -s $HOME/.config/switch-desk/switch.sh /usr/local/bin
           (remember to delete this if you remove switch-desk later)
 
- USAGE: $PATH/switch.sh [-d <direction>] [-n <number>]
+ USAGE: $CONFIG/switch-desk/switch.sh [-d <direction>] [-n <number>]
             -d, --direction  Specify the direction (left or right)
             -n, --number     Specify a number (integer)
 
