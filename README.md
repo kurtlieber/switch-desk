@@ -50,7 +50,7 @@ so use caution and common sense.
       interacts with each desktop.  It should get faster after that.  But seriously,
       stop being weird and store your shit like a normal human being.
     * "Fast" is a relative term.  There's still a small (<1s) delay each time you
-      switch desktop and you'll see the background image painting.  Such is life. 
+      switch desktop and you'll see the background image painting.  Such is life.
 
  CREDITS:
     * Thanks to dj1s for the idea and inspiration
