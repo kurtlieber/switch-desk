@@ -31,8 +31,9 @@ so use caution and common sense.
 not strictly necessary unless you want to easily call the script from the CLI.
 easiest way is probably:
 
-`sudo ln -s $HOME/.config/switch-desk/switch.sh /usr/local/bin
-
+```
+sudo ln -s $HOME/.config/switch-desk/switch.sh /usr/local/bin
+```
 (remember to delete this if you remove switch-desk later)
 
  USAGE: 
